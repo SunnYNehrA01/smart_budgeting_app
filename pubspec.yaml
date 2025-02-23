@@ -1,0 +1,28 @@
+name: budgeting_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  speech_to_text: ^7.0.0
+  shared_preferences: ^2.5.2
+  intl: ^0.20.2
+  percent_indicator: ^4.2.3  # Added for circular progress bar
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
